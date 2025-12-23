@@ -2,6 +2,15 @@
 
 > 专为 **ChatGPT-like 会话体验** 设计的高性能、安全、可扩展的沙箱系统，支持变量跨运行持久化、S3 自动同步、租户隔离与自动回收。
 
+## Usage
+
+Create an `.env` with your configuration. Then,
+
+```sh
+docker build -t python:3.11-sandbox sandbox-build
+bash ctl.sh start
+```
+
 
 ## 🚀 核心特性
 

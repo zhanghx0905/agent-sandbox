@@ -4,6 +4,15 @@
 
 [中文](./README.CN.md)
 
+## Usage
+
+Create an `.env` with your configuration. Then,
+
+```sh
+docker build -t python:3.11-sandbox sandbox-build
+bash ctl.sh start
+```
+
 ## 🚀 Core Features
 
 ✅ **Multi-Tenant Isolation**: Each `(user_id, session_id)` pair owns its dedicated sandbox container and workspace  
